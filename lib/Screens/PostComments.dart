@@ -24,7 +24,7 @@ class _PostCommentsState extends State<PostComments> {
             child: Container(
               color: Colors.white,
               height: 100,
-              child: TextField(
+              child: TextField(onChanged: (s)=>setState((){comment=s;}),
                 autofocus: true,
                 style: TextStyle(color: Colors.black, fontSize: 18),
                 decoration: InputDecoration(

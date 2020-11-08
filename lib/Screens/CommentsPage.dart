@@ -107,95 +107,81 @@ class _CommentPageState extends State<CommentPage> {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10.0, right: 10),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.start,
+                    child: Wrap(
                       children: [
-                        Expanded(
-                          flex: 0,
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: InkWell(
-                              onTap: () {
-                                Fluttertoast.showToast(msg: "Top");
-                              },
-                              borderRadius: BorderRadius.circular(20),
-                              child: Chip(
-                                label: Padding(
-                                  padding: const EdgeInsets.only(left: 5.0, right: 5),
-                                  child: Text("Top"),
-                                ),
-                                backgroundColor: Colors.grey.shade300,
-                                elevation: 2,
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(20)),
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: InkWell(
+                            onTap: () {
+                              Fluttertoast.showToast(msg: "Top");
+                            },
+                            borderRadius: BorderRadius.circular(20),
+                            child: Chip(
+                              label: Padding(
+                                padding: const EdgeInsets.only(left: 5.0, right: 5),
+                                child: Text("Top"),
                               ),
+                              backgroundColor: Colors.grey.shade300,
+                              elevation: 2,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20)),
                             ),
                           ),
                         ),
-                        Expanded(
-                          flex: 0,
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: InkWell(
-                              onTap: () {
-                                Fluttertoast.showToast(msg: "New");
-                              },
-                              borderRadius: BorderRadius.circular(20),
-                              child: Chip(
-                                label: Padding(
-                                  padding: const EdgeInsets.only(left: 5.0, right: 5),
-                                  child: Text("New"),
-                                ),
-                                backgroundColor: Colors.pink,
-                                elevation: 2,
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(20)),
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: InkWell(
+                            onTap: () {
+                              Fluttertoast.showToast(msg: "New");
+                            },
+                            borderRadius: BorderRadius.circular(20),
+                            child: Chip(
+                              label: Padding(
+                                padding: const EdgeInsets.only(left: 5.0, right: 5),
+                                child: Text("New"),
                               ),
+                              backgroundColor: Colors.pink,
+                              elevation: 2,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20)),
                             ),
                           ),
                         ),
-                        Expanded(
-                          flex: 0,
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: InkWell(
-                              onTap: () {
-                                Fluttertoast.showToast(msg: "My");
-                              },
-                              borderRadius: BorderRadius.circular(20),
-                              child: Chip(
-                                label: Padding(
-                                  padding: const EdgeInsets.only(left: 5.0, right: 5),
-                                  child: Text("My"),
-                                ),
-                                backgroundColor: Colors.grey.shade300,
-                                elevation: 2,
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(20)),
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: InkWell(
+                            onTap: () {
+                              Fluttertoast.showToast(msg: "My");
+                            },
+                            borderRadius: BorderRadius.circular(20),
+                            child: Chip(
+                              label: Padding(
+                                padding: const EdgeInsets.only(left: 5.0, right: 5),
+                                child: Text("My"),
                               ),
+                              backgroundColor: Colors.grey.shade300,
+                              elevation: 2,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20)),
                             ),
                           ),
                         ),
-                        Expanded(
-                          flex: 0,
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: InkWell(
-                              onTap: () {
-                                Fluttertoast.showToast(msg: "Counselor");
-                              },
-                              borderRadius: BorderRadius.circular(20),
-                              child: Chip(
-                                label: Padding(
-                                  padding: const EdgeInsets.only(left: 5.0, right: 5),
-                                  child: Text("Counselor"),
-                                ),
-                                backgroundColor: Colors.grey.shade300,
-                                elevation: 2,
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(20)),
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: InkWell(
+                            onTap: () {
+                              Fluttertoast.showToast(msg: "Counselor");
+                            },
+                            borderRadius: BorderRadius.circular(20),
+                            child: Chip(
+                              label: Padding(
+                                padding: const EdgeInsets.only(left: 5.0, right: 5),
+                                child: Text("Counselor"),
                               ),
+                              backgroundColor: Colors.grey.shade300,
+                              elevation: 2,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20)),
                             ),
                           ),
                         ),

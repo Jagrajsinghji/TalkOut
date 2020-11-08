@@ -47,10 +47,10 @@ class _ThreadScreenState extends State<ThreadScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(5.0),
+                    padding: const EdgeInsets.all(10.0),
                     child: Text(
                       "To me, it's Robert Jordan's Wheel of Time. This is the epic fantasy series. It starts off wonderfully in The Eye of the World. It's clear that there are three protagonists, Rand, Perrin and Mat. And they have their female sidekicks, Moiraine, Egwene and Nynaeve. Plus, there's the swashbuckling, handsome and mysterious warrior-cum bodyguard Lan Mandragoran. How many important characters is that? Seven. Easy to handle? Sure. Normal novels have a minimum of seven important characters.",
-                      textAlign: TextAlign.justify,
+                      textAlign: TextAlign.left,
                       style: TextStyle(fontSize: 18),
                     ),
                   ),
@@ -522,9 +522,8 @@ class _ThreadScreenState extends State<ThreadScreen> {
                           child: Container(
                             width: 46,
                             height: 46,
-                            child: Icon(
-                              Icons.person,
-                              color: Colors.pink,
+                            child: Image.asset(
+                              "assets/cat1.png",
                             ),
                             decoration: BoxDecoration(
                                 color: Colors.white,
