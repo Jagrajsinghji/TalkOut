@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276200235782",
+    "firebase_url": "https://flutterfirebase-js.firebaseio.com",
+    "project_id": "flutterfirebase-js",
+    "storage_bucket": "flutterfirebase-js.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276200235782:android:8c611391e7a35a4e32f487",
+        "android_client_info": {
+          "package_name": "com.akaalapps.iosd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276200235782-thfrc1a39p6kfjj9g8iegr8pmqkttbcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW9fDhL607hZ3RsEQ21Sw4qTYNVBbLQGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276200235782-thfrc1a39p6kfjj9g8iegr8pmqkttbcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
